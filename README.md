@@ -17,7 +17,7 @@ To quote Wikipedia:
 
 With support for concepts like entities, characters and agent prompts, **OpenClap** actually has more in common with the world of theatre and live performances (and gaming by extension) than the static world of cinema and pre-generated movies.
 
-An author and producer can use **OpenClap** format in a very light way, only defining broad storylines, art directions and prompts, leaving the rest to interpretation by an AI rendering engine, creating opportunities for surprise, improvisation, and interactivity with audience (**OpenClap** files can include interactive layers).
+An author and producer can use the **OpenClap** data structure in a very light way, only defining broad storylines, art directions and prompts, leaving the rest to interpretation by an AI rendering engine, creating opportunities for surprise, improvisation, and interactivity with audience (**OpenClap** files can include interactive layers).
 
 ## Under the hood
 
