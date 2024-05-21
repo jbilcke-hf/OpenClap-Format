@@ -7,7 +7,7 @@ Attention: This format is experimental and not standardized yet, so please exerc
 
 ## In a nutshell
 
-**OpenClap** is an open interchange format designed for AI content, from pre-generated multi-hour movies, infinite streams of 4D gaussian splatting videos (`.splatv`), or even real-time interactive video game experiences.
+**OpenClap** is an open interchange format designed for AI content, from pre-generated multi-hour movies and infinite streams of 4D gaussian splatting videos (`.splatv`) to real-time interactive video game experiences.
 
 An **OpenClap** file (`.clap`) is a compressed YAML stream of documents that describe all aspects of a scene:
 
