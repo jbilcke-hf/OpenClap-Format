@@ -28,6 +28,8 @@ Still, you can look at the draft here: [DRAFT.md](DRAFT.md)
 
 ## Implementations
 
+Checkout the [list of projects tagged with "openclap"](https://github.com/topics/openclap)
+
 **JavaScript package to manipulate .clap files ([code](https://github.com/jbilcke-hf/aitube-clap)):**
 
 - NPM link: https://www.npmjs.com/package/@aitube/clap
