@@ -8,7 +8,7 @@ Attention: This format is experimental and not standardized yet, so please exerc
 
 **OpenClap** is an open interchange format designed for AI content, from pre-generated multi-hour movies and infinite streams of 4D gaussian splatting videos (`.splatv`) to real-time interactive video game experiences.
 
-See it as the AI-oriented equivalent of the aptly named [prompt book](https://en.wikipedia.org/wiki/Prompt_book) (or [pitch bible](https://en.wikipedia.org/wiki/Bible_(screenwriting)).
+Since it contains all the elements needed to generate an AI movie, you can see it as the AI-oriented equivalent of the aptly named [prompt book](https://en.wikipedia.org/wiki/Prompt_book) (or [pitch bible](https://en.wikipedia.org/wiki/Bible_(screenwriting))).
 
 To quote Wikipedia:
 
