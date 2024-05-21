@@ -15,7 +15,7 @@ To quote Wikipedia:
 > The prompt book, also called transcript, the bible or sometimes simply the book, is the copy of a production script that contains the information necessary to create a theatrical production from the ground up.
 > It is a compilation of all blocking, business, light, speech and sound cues, lists of properties, drawings of the set, contact information for the cast and crew, and any other relevant information that might be necessary to help the production run smoothly.
 
-Is is an interesting parallel, as **OpenClap** is actually share things more with the dynamic world of theatre and live performances (and gaming of course) than the world of cinema and static films.
+With support for concepts like entities, characters and agent prompts, **OpenClap** actually has more in common with the world of theatre and live performances (and gaming by extension) than the static world of cinema and pre-generated movies.
 
 An author and producer can use **OpenClap** format in a very light way, only defining broad storylines, art directions and prompts, leaving the rest to interpretation by an AI rendering engine, creating opportunities for surprise, improvisation, and interactivity with audience (**OpenClap** files can include interactive layers).
 
