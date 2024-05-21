@@ -30,7 +30,9 @@ An **OpenClap** file (`.clap`) is a compressed YAML stream of documents that des
 - generated outputs (images, videos, gaussian splatting videos)
 - revisions (for versionning prompts and outputs)
 
-**OpenClap** currently defines the *content* itself, not *how* it is produced. In the future, the format might evolve to introduce production workflows such as ComfyUI or Visual Blocks.
+**OpenClap** is an *open* format, and not just just because it has no licence fees, be because it can also be extended.
+
+You can reference any kind of file format in it for your content, and in the future it might also evolve to include production workflows such as embedded ComfyUI workflow files or Visual Blocks.
 
 ## Specification
 
