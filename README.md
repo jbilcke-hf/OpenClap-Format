@@ -4,10 +4,18 @@
 
 Attention: This format is experimental and not standardized yet, so please exercise caution and reach out if you implement it.
 
-
-## In a nutshell
+## What is OpenClap?
 
 **OpenClap** is an open interchange format designed for AI content, from pre-generated multi-hour movies and infinite streams of 4D gaussian splatting videos (`.splatv`) to real-time interactive video game experiences.
+
+See it as the AI-oriented equivalent of the aptly named [prompt book](https://en.wikipedia.org/wiki/Prompt_book) (or [pitch bible](https://en.wikipedia.org/wiki/Bible_(screenwriting)).
+
+To quote Wikipedia:
+
+    The prompt book, also called transcript, the bible or sometimes simply the book, is the copy of a production script that contains the information necessary to create a theatrical production from the ground up. It is a compilation of all blocking, business, light, speech and sound cues, lists of properties, drawings of the set, contact information for the cast and crew, and any other relevant information that might be necessary to help the production run smoothly.
+
+
+## Under the hood
 
 An **OpenClap** file (`.clap`) is a compressed YAML stream of documents that describe all aspects of a scene:
 
