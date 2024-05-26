@@ -6,18 +6,20 @@ Attention: This format is experimental and not standardized yet, so please exerc
 
 ## What is OpenClap?
 
-**OpenClap** is an open interchange format designed for AI content, from pre-generated multi-hour movies and infinite streams of 4D gaussian splatting videos (`.splatv`) to real-time interactive video game experiences.
+**OpenClap** (`.clap`) is an open interchange format made to contain AI-generated assets so they can be shared between different apps and tools. It can be used to define either static or dynamic scenes, such as generative movies or games.
 
-Since it contains all the elements needed to generate an AI movie, you can see it as the AI-oriented equivalent of the aptly named [prompt book](https://en.wikipedia.org/wiki/Prompt_book) (or [pitch bible](https://en.wikipedia.org/wiki/Bible_(screenwriting))).
+Please note that this is just a data format designed for storage and sharing. It contains instructions such as prompts, references images and the resulting outputs of running a generative models
+
+You can see it as the all-in-one, AI-first equivalent of the aptly named [prompt book](https://en.wikipedia.org/wiki/Prompt_book).
 
 To quote Wikipedia:
 
 > The prompt book, also called transcript, the bible or sometimes simply the book, is the copy of a production script that contains the information necessary to create a theatrical production from the ground up.
 > It is a compilation of all blocking, business, light, speech and sound cues, lists of properties, drawings of the set, contact information for the cast and crew, and any other relevant information that might be necessary to help the production run smoothly.
 
-With support for concepts like entities, characters and agent prompts, **OpenClap** actually has more in common with the world of theatre and live performances (and gaming by extension) than the static world of cinema and pre-generated movies.
+Similar to theatre, an author and producer can use the **OpenClap** data structure in a very light way, only defining broad storylines, art directions and prompts, leaving the rest to interpretation by an AI rendering engine, creating opportunities for surprise, improvisation, and interactivity with audience (**OpenClap** files can include interactive layers).
 
-An author and producer can use the **OpenClap** data structure in a very light way, only defining broad storylines, art directions and prompts, leaving the rest to interpretation by an AI rendering engine, creating opportunities for surprise, improvisation, and interactivity with audience (**OpenClap** files can include interactive layers).
+This readiness for interactivity makes it the ideal format to build AI apps and prompt multi-purpose [world models](https://worldmodels.github.io/) such as as [Pandora](https://huggingface.co/maitrix-org/Pandora), even more so than video models.
 
 ## Under the hood
 
@@ -26,7 +28,9 @@ An **OpenClap** file (`.clap`) is a compressed YAML stream of documents that des
 - prompts
 - image/video storyboards and moodboards
 - timings and events
-- entities (eg. characters)
+- 4D gaussian splatting videos (`.splatv`)
+- main entities with a face and voice (eg. characters)
+- prompts for agents (NPCs etc) and scripted world events
 - generated outputs (images, videos, gaussian splatting videos)
 - revisions (for versionning prompts and outputs)
 
