@@ -21,6 +21,15 @@ Similar to theatre, an author and producer can use the **OpenClap** data structu
 
 This readiness for interactivity by means of time-indexed parameters makes it the ideal format to build AI apps by prompting multi-purpose [world models](https://worldmodels.github.io/) such as as [Pandora](https://huggingface.co/maitrix-org/Pandora), even more so than video models.
 
+## Are you working on a similar project?
+
+Are you working on a similar tool, AI game engine or storyboard-based project?
+
+You may realize at some point that you also need to create your own proprietary `ClosedClap`, due to the convergence of technical needs and requirements.
+
+But you know what: let's collaborate instead! Let's have a constructive conversation on how to build a common neutral format to connect our tools or platforms, so that [my users](https://huggingface.co/spaces/jbilcke-hf/ai-comic-factory?likers=true) can also become *your* users.
+
+
 ## Under the hood
 
 An **OpenClap** file (`.clap`) is a compressed YAML stream of documents that describe all aspects of a scene:
