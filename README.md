@@ -2,15 +2,15 @@
 
 *A file format for the age of AI content production*
 
-Attention: This format is experimental and not standardized yet, so please exercise caution and reach out if you implement it.
+Attention: This format is ***experimental** and not standardized yet, so please exercise caution and reach out if you implement it.
 
 ## What is OpenClap?
 
-**OpenClap** (`.clap`) is an open interchange format made to contain AI-generated assets so they can be shared between different apps and tools. It can be used to define either static or dynamic scenes, such as generative movies or games.
+**OpenClap** (`.clap`) is an open interchange format made to *contain AI-generated assets* so they can be shared between different apps and tools. It can be used to define either static or dynamic scenes, such as **generative movies or games**.
 
 Please note that this is just a data format designed for storage and sharing. **It can store instructions, inputs and outputs for AI models so it will contain text and binary data such as prompts, images, sound, music and videos but this is not a runtime, a video model or a game engine.**
 
-You can see it as the all-in-one, AI-first equivalent of the aptly named [prompt book](https://en.wikipedia.org/wiki/Prompt_book).
+You can see it as the all-in-one, *AI-first* equivalent of the aptly named [prompt book](https://en.wikipedia.org/wiki/Prompt_book).
 
 To quote Wikipedia:
 
@@ -19,7 +19,7 @@ To quote Wikipedia:
 
 Similar to theatre, an author and producer can use the **OpenClap** data structure in a very light way, only defining broad storylines, art directions and prompts, leaving the rest to interpretation by an AI rendering engine, creating opportunities for surprise, improvisation, and interactivity with audience (**OpenClap** files can include interactive layers).
 
-This readiness for interactivity makes it the ideal format to build AI apps and prompt multi-purpose [world models](https://worldmodels.github.io/) such as as [Pandora](https://huggingface.co/maitrix-org/Pandora), even more so than video models.
+This readiness for interactivity by means of time-indexed parameters makes it the ideal format to build AI apps by prompting multi-purpose [world models](https://worldmodels.github.io/) such as as [Pandora](https://huggingface.co/maitrix-org/Pandora), even more so than video models.
 
 ## Under the hood
 
