@@ -8,7 +8,7 @@ Attention: This format is experimental and not standardized yet, so please exerc
 
 **OpenClap** (`.clap`) is an open interchange format made to contain AI-generated assets so they can be shared between different apps and tools. It can be used to define either static or dynamic scenes, such as generative movies or games.
 
-Please note that this is just a data format designed for storage and sharing: it contains instructions such as prompts, references images and the resulting outputs of running a generative models, but this is not a runtime, a video model or a game engine.
+Please note that this is just a data format designed for storage and sharing. **it contains instructions, input and outputs such as prompts, images, sound, music and videos but this is not a runtime, a video model or a game engine.**
 
 You can see it as the all-in-one, AI-first equivalent of the aptly named [prompt book](https://en.wikipedia.org/wiki/Prompt_book).
 
