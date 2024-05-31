@@ -2,7 +2,7 @@
 
 *A file format for the age of AI content production*
 
-<img src="https://raw.githubusercontent.com/jbilcke-hf/OpenClap-Format/main/teaser.jpg?sanitize=true" width="100%" />
+<img src="https://media.githubusercontent.com/media/jbilcke-hf/OpenClap-Format/main/teaser.jpg" width="100%" />
 
 Attention: This format is ***experimental** and not standardized yet, so please exercise caution and reach out if you implement it.
 
