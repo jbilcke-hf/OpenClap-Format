@@ -4,7 +4,7 @@
 
 <img src="https://media.githubusercontent.com/media/jbilcke-hf/OpenClap-Format/main/teaser.jpg" width="100%" />
 
-Attention: This format is ***experimental** and not standardized yet, so please exercise caution and reach out if you implement it.
+(The above screenshot is from [Clap Viewer](https://media.githubusercontent.com/media/jbilcke-hf/OpenClap-Format/main/teaser.jpg))
 
 ## What is OpenClap?
 
@@ -65,7 +65,7 @@ Checkout the [list of projects tagged with "openclap"](https://github.com/topics
 - Supports Browser (client-side) and NodeJS (server-side)
 - Utilities and helpers to manipulate `.clap` files (read a file,  write to it)
 
-**Simple read-only app to visualize a .clap file ([code](https://huggingface.co/spaces/jbilcke-hf/clap-viewer)):**
+**Simple read-only app to visualize a .clap file (go see the [public beta](https://huggingface.co/spaces/jbilcke-hf/clap-viewer)):**
 
 - App: https://huggingface.co/spaces/jbilcke-hf/clap-viewer
 - Code: https://github.com/jbilcke-hf/clap-viewer
