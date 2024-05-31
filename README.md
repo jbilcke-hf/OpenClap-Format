@@ -63,6 +63,21 @@ Checkout the [list of projects tagged with "openclap"](https://github.com/topics
 - Supports Browser (client-side) and NodeJS (server-side)
 - Utilities and helpers to manipulate `.clap` files (read a file,  write to it)
 
+**Simple read-only app to visualize a .clap file ([code](https://huggingface.co/spaces/jbilcke-hf/clap-viewer)):**
+
+- App: https://huggingface.co/spaces/jbilcke-hf/clap-viewer
+- Code: https://github.com/jbilcke-hf/clap-viewer
+- Read-only .clap for now
+- Scrolling features are not fully operational yet (there are bugs)
+
+**React component to render a .clap timeline ([code](https://github.com/jbilcke-hf/aitube-timeline)):**
+
+- It is used by Clap Viewer
+- Read-only .clap for now
+- NPM link: https://www.npmjs.com/package/@aitube/timeline
+- Work in progress, it's not finished yet! (so there is no doc)
+- Scrolling features are not fully operational yet (there are bugs)
+
 **AI Comic Factory ([app](https://huggingface.co/spaces/jbilcke-hf/ai-comic-factory), [code](https://github.com/jbilcke-hf/ai-comic-factory))**:
 
 - Web GUI, 100% standalone (you can choose your own backend/vendor)
