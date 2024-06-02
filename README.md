@@ -4,7 +4,7 @@
 
 <img src="https://media.githubusercontent.com/media/jbilcke-hf/OpenClap-Format/main/teaser.jpg" width="100%" />
 
-(The above screenshot is from [Clap Viewer](https://huggingface.co/spaces/jbilcke-hf/clap-viewer), a free open-source app to visualize `.clap` files)
+(The above screenshot is from [Clap Viewer](https://jbilcke-hf-clap-viewer.hf.space), a free open-source app to visualize `.clap` files)
 
 ## What is OpenClap?
 
